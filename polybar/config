@@ -75,8 +75,8 @@ label-volume-padding = 1
 [module/battery]
 type = internal/battery
 
-battery = BAT0
-adapter = ADP0
+battery = BAT1
+adapter = ADP1
 
 poll-interval = 5
 
@@ -131,7 +131,7 @@ label-padding = 1
 
 [module/wired-network]
 type = internal/network
-interface = enp2s0
+interface = enp7s0
 label-connected =  %essid%
 label-connected-background = #e95678
 label-connected-padding = 1
@@ -141,7 +141,8 @@ label-disconnected-padding = 1
 
 [module/wireless-network]
 type = internal/network
-interface = wlp3s0
+; Ist custom für jedes system
+interface = wlp8s0
 label-connected =  %essid%
 label-connected-background = #e95678
 label-connected-padding = 1
