@@ -49,7 +49,7 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 
-feh --bg-fill ~/Bilder/wallpeper.png
+feh --bg-fill ~/Bilder/wallpaper.png
 $HOME/.config/polybar/launch.sh
 
 
